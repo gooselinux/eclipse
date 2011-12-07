@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Work around bugs.eclipse.org/290395
+export GDK_NATIVE_WINDOWS=true
+
+/usr/lib/eclipse/eclipse "$@"

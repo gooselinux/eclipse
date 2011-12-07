@@ -1,0 +1,22 @@
+--- plugins/org.eclipse.pde.core/targets/rcpWithSource.target.old	2009-09-09 20:58:19.915548076 +0100
++++ plugins/org.eclipse.pde.core/targets/rcpWithSource.target	2009-09-09 21:03:43.845541597 +0100
+@@ -3,15 +3,9 @@
+ 
+ <target name="Base RCP with Source">
+ 
+-   <location useDefault="true"/>
+-
+-   <content>
+-      <plugins>
+-      </plugins>
+-      <features>
+-         <feature id="org.eclipse.rcp"/>
+-         <feature id="org.eclipse.rcp.source"/>
+-      </features>
+-   </content>
++   <locations>
++      <location id="org.eclipse.rcp" path="${eclipse_home}" type="Feature"/>
++      <location id="org.eclipse.rcp.source" path="${eclipse_home}/dropins/sdk" type="Feature"/>
++   </locations>
+ 
+ </target>

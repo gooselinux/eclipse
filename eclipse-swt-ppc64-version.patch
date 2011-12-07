@@ -1,0 +1,10 @@
+--- pluginVersions.properties.orig	2009-11-17 14:14:23.347601483 +0200
++++ pluginVersions.properties	2009-11-17 14:15:06.718811108 +0200
+@@ -175,6 +175,7 @@ org.eclipse.core.databinding.property,0.
+ org.eclipse.ui.examples.propertysheet,0.0.0=I20070319-0010
+ org.eclipse.core.jobs,0.0.0=v20090429-1800
+ org.eclipse.swt.gtk.linux.ppc,0.0.0=v3555a
++org.eclipse.swt.gtk.linux.ppc64,0.0.0=v3555a
+ org.eclipse.swt.carbon.macosx,0.0.0=v3555a
+ org.eclipse.jdt.ui.examples.projects,0.0.0=v20090603
+ org.eclipse.pde.runtime,0.0.0=v20090731
